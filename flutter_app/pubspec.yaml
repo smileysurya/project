@@ -1,0 +1,55 @@
+name: ai_voice_translator
+description: Real-time AI Voice Translator - 1-to-1 calls with live translation subtitles
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking
+  http: ^1.2.0
+  socket_io_client: ^2.0.3+1
+
+  # State Management
+  provider: ^6.1.2
+
+  # Contacts
+  flutter_contacts: ^1.1.9+1
+  permission_handler: ^11.3.0
+
+  # Audio / WebRTC
+  flutter_webrtc: ^0.9.47
+  flutter_sound: ^9.2.13
+  audioplayers: ^6.0.0
+  just_audio: ^0.9.36
+
+  # TTS (device-side fallback)
+  flutter_tts: ^4.0.2
+
+  # Speech recognition (on-device fallback)
+  speech_to_text: ^7.3.0
+
+  # Storage
+  shared_preferences: ^2.2.3
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
