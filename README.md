@@ -271,4 +271,5 @@ flutter build apk --release
 4. **Whisper STT**: Requires `OPENAI_API_KEY` — works with standard OpenAI key
 5. **TTS fallback**: If server TTS fails, Flutter uses device `flutter_tts` automatically
 #   p r o j e c t  
+ #   p r o j e c t  
  
